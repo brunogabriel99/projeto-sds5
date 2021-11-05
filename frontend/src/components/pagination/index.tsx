@@ -1,4 +1,3 @@
-import { Props } from "react-apexcharts";
 import { SalePage } from "types/sale";
 
 type props = {
@@ -6,7 +5,7 @@ type props = {
   onPageChange: Function;
 };
 
-const Pagination = ({ page, onPageChange }: Props) => {
+const Pagination = ({ page, onPageChange }: props) => {
   return (
     <div className="row d-flex justify-content-center">
       <nav>
